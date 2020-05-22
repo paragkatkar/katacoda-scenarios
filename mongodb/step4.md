@@ -13,8 +13,3 @@ Display available commands.
 Display available databases.
 
 `show dbs`{{execute}}
-
-To use a particular database (lets say myappdb) we can type the following.
-
-`use myappdb
-db`{{execute}}
