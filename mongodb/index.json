@@ -21,7 +21,11 @@
       "text": "step4.md"
     },
     {
-      "title": "Step 5 - MongoDB Concepts",
+      "title": "Step 5 - Basic Concepts",
+      "text": "step5.md"
+    },
+    {
+      "title": "Step 6 - Inserting Documents",
       "text": "step5.md"
     }],
     "intro": {
@@ -34,7 +38,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
