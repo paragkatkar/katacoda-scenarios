@@ -9,7 +9,3 @@ Then type the following to start the Mongo shell.
 Display available commands.
 
 `help`{{execute}}
-
-Display available databases.
-
-`show dbs`{{execute}}
