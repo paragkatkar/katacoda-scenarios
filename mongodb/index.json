@@ -1,8 +1,8 @@
 {
-  "title": "MongoDB course",
-  "description": "MongoDB course",
+  "title": "MongoDB",
+  "description": "Learn the MongoDB basics",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Download the MongoDB binaries",
