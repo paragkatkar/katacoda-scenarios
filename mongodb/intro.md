@@ -4,7 +4,7 @@ MongoDB is a general purpose, document-based, distributed database built for mod
 
 MongoDB stores data in JSON-like documents.
 
-In this course, you will learn how to setup the MongoDB and use it
+In this course, you will learn how to install, run and use MongoDB
 
 ## Learning Objectives
 
