@@ -46,10 +46,10 @@ The following example retrieves all documents in the collection where the status
 
 ### Specify AND as well as OR Conditions
 
-In the following example, the compound query document selects all documents in the collection where the status equals "A" and either qty is less than ($lt) 30 or item starts with the character p:
+In the following example, the compound query document selects all documents in the collection where the status equals "A" and either qty is less than or equal to ($lte) 30 or item starts with the character p:
 
 `db.inventory.find( {
      status: "A",
-     $or: [ { qty: { $lt: 30 } }, { item: /^p/ } ]
+     $or: [ { qty: { $lte: 30 } }, { item: /^p/ } ]
 } )`{{execute}}
 
