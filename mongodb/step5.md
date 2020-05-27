@@ -1,4 +1,4 @@
-In this step you will learn the MongoDB concepts
+In this step you will learn the MongoDB basic concepts
 
 # Database
 A database is a set of collections (tables). Each databse is physically stored as files on the host filesystem. A single MongoDB instance can host multiple databases. It is equivalent to an RDBMS schema.

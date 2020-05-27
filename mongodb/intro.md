@@ -1,4 +1,4 @@
-Welcome to the MongoDB course!
+Welcome to the MongoDB Fundamantals course!
 
 MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 
@@ -12,5 +12,5 @@ In this course, you will learn how to setup the MongoDB and use it
 * MongoDB Deployment
 * How to run MongoDB
 * How to run the Mongo shell
-* MongoDB Concepts
-* MongoDB Commands
+* MongoDB Basic Concepts
+* MongoDB CRUD operations

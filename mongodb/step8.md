@@ -4,9 +4,9 @@ In this step, you will learn how to update documents
 
 This step uses the following mongo shell methods:
 
-db.collection.updateOne(<filter>, <update>, <options>)
-db.collection.updateMany(<filter>, <update>, <options>)
-db.collection.replaceOne(<filter>, <update>, <options>)
+`db.collection.updateOne(<filter>, <update>, <options>)`
+`db.collection.updateMany(<filter>, <update>, <options>)`
+`db.collection.replaceOne(<filter>, <update>, <options>)`
 
 The examples in this step use the inventory collection. To create and/or populate the inventory collection, run the following:
 
@@ -54,7 +54,7 @@ uses the $currentDate operator to update the value of the lastModified field to 
 
 ### Update Multiple Documents
 
-The following example uses the db.collection.updateMany() method on the inventory collection to update all documents where qty is less than 50:
+The following example uses the `db.collection.updateMany()` method on the inventory collection to update all documents where qty is less than 50:
 
 `db.inventory.updateMany(
    { "qty": { $lt: 50 } },
