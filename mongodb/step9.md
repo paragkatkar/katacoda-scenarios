@@ -17,16 +17,6 @@ The examples on this page use the inventory collection. To populate the inventor
    { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" },
 ] );`{{execute}}
 
-### Delete All Documents
-
-To delete all documents from a collection, pass an empty filter document {} to the `db.collection.deleteMany()` method.
-
-The following example deletes all documents from the inventory collection:
-
-`db.inventory.deleteMany({})`{{execute}}
-
-The method returns a document with the status of the operation. 
-
 ### Delete All Documents that Match a Condition
 
 You can specify criteria, or filters, that identify the documents to delete. The filters use the same syntax as read operations.
@@ -54,3 +44,13 @@ To delete at most a single document that matches a specified filter (even though
 The following example deletes the first document where status is "D":
 
 `db.inventory.deleteOne( { status: "D" } )`{{execute}}
+
+### Delete All Documents
+
+To delete all documents from a collection, pass an empty filter document {} to the `db.collection.deleteMany()` method.
+
+The following example deletes all documents from the inventory collection:
+
+`db.inventory.deleteMany({})`{{execute}}
+
+The method returns a document with the status of the operation. 
